@@ -25,3 +25,5 @@ jobs:
         distribution: goreleaser
         version: latest
         args: release --rm-dist
+      env:
+        GITHUB_TOKEN: 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
