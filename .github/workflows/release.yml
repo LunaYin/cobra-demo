@@ -26,4 +26,4 @@ jobs:
         version: latest
         args: release --rm-dist
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: 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
