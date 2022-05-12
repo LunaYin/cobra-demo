@@ -12,7 +12,7 @@ brews:
     homepage: https://github.com/LunaYin/homebrew-tools
     tap:
       owner: LunaYin
-      name: cobra-demo
+      name: homebrew-tools
 builds:
   - env:
       - CGO_ENABLED=0
