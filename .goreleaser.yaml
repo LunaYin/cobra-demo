@@ -7,6 +7,12 @@ before:
     - go mod tidy
     # you may remove this if you don't need go generate
     - go mod download
+brews:
+  - name: cobra-demo
+    homepage: https://github.com/LunaYin/homebrew-tools
+    tap:
+      owner: LunaYin
+      name: cobra-demo
 builds:
   - env:
       - CGO_ENABLED=0
